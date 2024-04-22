@@ -20,7 +20,7 @@ const login = async (credentials) => {
     );
 
     if (!isPasswordCorrect) {
-      throw new Error("Wrong Credentials!");
+      throw new Error("v");
     }
 
     return user;
